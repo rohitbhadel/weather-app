@@ -1,16 +1,141 @@
-# React + Vite
+# 🌦 Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern weather application built with **React** and **Vite** that allows users to search for any city and view real-time weather information using the **OpenWeather API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+> *(Add a screenshot of your application here after completion.)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search weather by city name
+- 🌡️ Display current temperature
+- 💧 View humidity
+- 💨 Display wind speed
+- 🌍 Show city and country
+- ⚡ Fast and responsive interface
+- 📱 Mobile-friendly design
+
+---
+
+## 🛠️ Built With
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- OpenWeather API
+
+---
+
+## 📂 Project Structure
+
+```
+weather-app/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── SearchBar.jsx
+│   │   ├── WeatherCard.jsx
+│   │   ├── Loader.jsx
+│   │   └── ErrorMessage.jsx
+│   │
+│   ├── services/
+│   │   └── weatherApi.js
+│   │
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/rohitbhadel/weather-app.git
+```
+
+Go to the project directory
+
+```bash
+cd weather-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory.
+
+```env
+VITE_OPENWEATHER_API_KEY=YOUR_API_KEY
+```
+
+Get your free API key from:
+
+https://openweathermap.org/api
+
+---
+
+## 🎯 Future Improvements
+
+- 🌤️ 5-Day Weather Forecast
+- 📍 Current Location Weather
+- 🌙 Dark / Light Mode
+- 🕒 Search History
+- ❤️ Favorite Cities
+- 🌎 Weather Icons & Animations
+
+---
+
+## 📸 Screenshot
+
+*(Replace this section after taking a screenshot of your finished app.)*
+
+![Weather App Screenshot](./public/screenshot.png)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
+
+---
+
+## 👨‍💻 Author
+
+**Rohit Bhadel**
+
+- GitHub: https://github.com/rohitbhadel
+- LinkedIn: https://www.linkedin.com/in/rohitbhadel/
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub!
